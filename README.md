@@ -89,9 +89,9 @@ Your training data should be in CSV format with the following columns:
 
 ```csv
 text,label
-"Sản phẩm này rất tốt",POSITIVE
-"Chất lượng không như mong đợi",NEGATIVE
-"Bình thường, không có gì đặc biệt",NEUTRAL
+"Sản phẩm này rất tốt",2
+"Chất lượng không như mong đợi",0
+"Bình thường, không có gì đặc biệt",1
 ```
 
 ## 🔧 Configuration
@@ -202,7 +202,7 @@ If you encounter issues:
 3. Ensure all dependencies are installed correctly
 4. Check that model paths are correct
 
-## 📊 Example Results
+## 📊 Results
 
 When trained on educational feedback data, the model achieved:
 
